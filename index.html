@@ -15,6 +15,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
+        crossorigin="anonymous" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +55,7 @@
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Features</a></li>
           <li><a class="nav-link" href="#services">Downloads</a></li>
-          <li><a class="nav-link" href="#portfolio">Screens</a></li>
+          <li><a class="nav-link" href="#screenshots">Screens</a></li>
           <li><a class="nav-link" href="#contact">Team</a></li>
           <li><a class="nav-link" href="http://www.tenxos-blog.me">Blog</a></li>
         </ul>
@@ -470,81 +473,56 @@
     </div>
   </section><!-- End Services Section -->
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Screens</h2>
-        <p>TenX-OS Screenshots</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All screenshots</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/screens/settings.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Settings</h4>
-              <div class="portfolio-links">
-                <a href="assets/img/screens/settings.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Settings"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" title="Portfolio Details"></i></a>
-              </div>
+  <!-- Screenshots -->
+  <section class="scroll-margin" id="screenshots">
+     <div class="swiper-container">
+         <h1 class="section-title text-center" style="font-weight: bold;color: white;font-family: 'Open Sans',sans-serif;padding-bottom: 30px;">Screenshots</h1>
+         <div class="swiper-wrapper">
+             <div class="swiper-slide">
+                 <div class="img-box">
+                        <img src="assets/img/screens/tenx.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="assets/img/screens/ambient.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="assets/img/screens/ui.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="assets/img/screens/settings.png" alt="" />
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="./assets/img/screenshots/4.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="./assets/img/screenshots/1.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="./assets/img/screenshots/2.png" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="./assets/img/screenshots/3.png" alt="" />
+                    </div>
+                </div> -->
             </div>
-          </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/screens/tenx.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>TenX</h4>
-              <div class="portfolio-links">
-                <a href="assets/img/screens/tenx.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TenX"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/screens/ambient.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Ambient Display</h4>
-              <div class="portfolio-links">
-                <a href="assets/img/screens/ambient.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ambient Display"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/screens/ui.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>User Interface</h4>
-              <div class="portfolio-links">
-                <a href="assets/img/screens/ui.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="User Interface"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
+    </section>
 
   </section><!-- End About Section -->
 
@@ -680,6 +658,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Swiper -->
+  <script src="./assets/js/swiper.min.js"></script>
+  <script src="./assets/js/swiper_init.js"></script>
 
 </body>
 

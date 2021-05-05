@@ -1163,3 +1163,75 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.scroll-margin {
+    scroll-margin-top: 4rem;
+}
+
+#screenshots {
+    padding: 30px 0;
+}
+
+#screenshots .section-title p {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section .swiper-container {
+    width: 84%;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    section .swiper-container {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+section .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    height: 455px;
+}
+
+section .swiper-slide .img-box {
+    height: 520px;
+    overflow: hidden;
+}
+
+section .swiper-slide .img-box img {
+    width: 100%;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
